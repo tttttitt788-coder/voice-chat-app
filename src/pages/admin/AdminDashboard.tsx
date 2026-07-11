@@ -38,7 +38,7 @@ export default function AdminDashboard() {
           const Icon = card.icon
           return (
             <div key={i} className="bg-slate-900/50 rounded-2xl border border-slate-800/50 p-5">
-              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${card.color} flex items-center justify-center mb-3">
+              <div className={'w-12 h-12 rounded-xl bg-gradient-to-br ' + card.color + ' flex items-center justify-center mb-3'}>
                 <Icon className="w-6 h-6 text-white" />
               </div>
               <p className="text-gray-400 text-sm mb-1">{card.label}</p>
